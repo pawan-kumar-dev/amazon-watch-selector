@@ -1,0 +1,60 @@
+.title {
+     font-size: 2rem;
+     font-weight: 600;
+     margin-top: 3%;
+     margin-bottom: 3%;
+}
+.desc {
+     font-size: 1rem;
+     margin-top: 0;
+     margin-bottom: 3%;
+}
+.selectColor {
+     font-size: 1.5rem;
+     margin: 3% 0 3% 0;
+}
+.optionImages {
+     display: flex;
+     flex-wrap: wrap;
+}
+.productImages {
+     width: 80px;
+     border: 0.1rem solid transparent;
+     border-radius: 0.6rem;
+     margin: 1.5%;
+     cursor: pointer;
+}
+.selectedProductImage {
+     border: 0.1rem solid teal;
+}
+.btns {
+     width: 39%;
+     background-color: gainsboro;
+     border-radius: 0.6rem;
+     padding: 12px 24px;
+     margin: 2%;
+     font-weight: 600;
+     font-size: 0.82rem;
+     cursor: pointer;
+     border: 0;
+     outline: none;
+     letter-spacing: 2px;
+}
+.features {
+     display: flex;
+}
+.selectedBtn {
+     background-color: gray;
+     color: white;
+}
+.buybtn {
+     color: white;
+     background-color: teal;
+     font-size: 1rem;
+     margin: 10% 0 0 2%;
+     border: 0;
+     border-radius: 0.4rem;
+     padding: 12px 24px;
+     outline: none;
+     cursor: pointer;
+}

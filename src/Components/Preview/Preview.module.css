@@ -1,0 +1,52 @@
+.Preview {
+     width: 100%;
+     height: 100%;
+     z-index: 0;
+     position: relative;
+}
+.Preview > img {
+     width: 100%;
+     height: 100%;
+}
+.date {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     color: white;
+     transform: translate(-55%, -50%);
+     font-size: 2.2rem;
+     font-weight: 600;
+}
+.heart {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     color: white;
+     transform: translate(-55%, -50%);
+     font-size: 2.2rem;
+     font-weight: 600;
+}
+.heart > p {
+     margin: 0;
+}
+.heart > i {
+     color: red;
+     animation: beat 1s infinite;
+}
+@keyframes beat {
+     0% {
+          transform: scale(1, 1);
+     }
+     50% {
+          transform: scale(1.2, 1.2);
+     }
+     100% {
+          transform: scale(1, 1);
+     }
+}
+.data {
+     width: 50%;
+}
+.data > img {
+     width: 100%;
+}
